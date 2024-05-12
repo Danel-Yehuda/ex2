@@ -1,0 +1,111 @@
+.photo-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.photo-gallery img {
+    width: 300px;
+    height: 300px;
+    border: 4px solid #E6DBFE;
+    object-fit: cover;
+    
+}
+
+.photo-gallery .middle-photo {
+    width: 388px;
+}
+
+.dinosaur-list {
+    margin-top: 32px;
+    text-align: left;
+}
+
+.dinosaur-list h2 {
+    font-size: 32px;
+    color: #612999;
+    margin-bottom: 20px;
+}
+
+.dinosaur-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dinosaur-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.dinosaur-list .icon-circle {
+    width: 82px;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #612999;
+    margin-right: 16px;
+    flex-shrink: 0;
+}
+
+.dinosaur-list .icon-circle i {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.dinosaur-list .dino-name {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 58.333% */
+}
+
+.form-section {
+    margin: 40px 0;
+    text-align: left;
+}
+
+.form-section h2 {
+    font-size: 32px;
+    color: #612999;
+    margin-bottom: 20px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-section input {
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section input[type="submit"] {
+    width: 150px;
+    background-color: #612999;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.form-section input[type="submit"]:hover {
+    background-color: #3E3F43;
+}
